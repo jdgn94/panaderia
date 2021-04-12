@@ -3,11 +3,20 @@ Vue.component('nav-bar', {
     <div>
       <v-app-bar
         id="app-bar"
-        color='purple darken-2'
+        color='#c36934'
         dark
         style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px"
       >
-        <v-toolbar-title>Nombre pagina</v-toolbar-title>
+        <v-toolbar-items style="margin-right: 10px; display: flex; align-items: center; justify-content: center; max-width: 50px; height: 100%">
+          <v-img
+            src="public/images/icon/logo.png"
+            style="max-width: 50px; max-height: 50px"
+          ></v-img>
+        </v-toolbar-items>
+
+        <v-toolbar-title>
+          Negri's Bakery
+        </v-toolbar-title>
   
         <v-spacer></v-spacer>
   

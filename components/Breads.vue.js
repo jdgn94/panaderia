@@ -1,7 +1,6 @@
 Vue.component('breads', {
   template: /*html*/`
     <div>
-      <h1></h1>
       <v-carousel
         cycle
         height="400"
@@ -26,7 +25,7 @@ Vue.component('breads', {
                 >
                   <v-progress-circular
                     indeterminate
-                    color="purple darken-2"
+                    color="#c36934"
                   ></v-progress-circular>
                 </v-row>
               </template>

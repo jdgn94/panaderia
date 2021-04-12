@@ -6,7 +6,7 @@ Vue.component('floating-button', {
       <v-fab-transition>
         <v-btn
           v-show="!hidden"
-          color="green"
+          color="#f0d083"
           dark
           fixed
           bottom
@@ -14,7 +14,7 @@ Vue.component('floating-button', {
           fab
           href="#app-bar"
         >
-          <v-icon>mdi-chevron-up</v-icon>
+          <v-icon color="black">mdi-chevron-up</v-icon>
         </v-btn>
       </v-fab-transition>
     </div>

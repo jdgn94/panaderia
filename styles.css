@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+/* #app {
+  background: #f0d083;
+} */
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -9,18 +13,18 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #ddd;
+  background: #f0d083;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
 	background: #c36934;
-	border-radius: 5px;
+	border-radius: 5px ;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #f0d083;
+  background: #603912;
 	border-radius: 5px;
 }
 

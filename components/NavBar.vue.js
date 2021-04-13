@@ -9,7 +9,7 @@ Vue.component('nav-bar', {
       >
         <v-toolbar-items style="margin-right: 10px; display: flex; align-items: center; justify-content: center; max-width: 50px; height: 100%">
           <v-img
-            src="public/images/icon/logo.png"
+            src="public/images/icon/logo2.png"
             style="max-width: 50px; max-height: 50px"
           ></v-img>
         </v-toolbar-items>

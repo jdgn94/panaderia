@@ -2,9 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 
-/* #app {
+#app {
   background: #f0d083;
-} */
+}
 
 /* width */
 ::-webkit-scrollbar {

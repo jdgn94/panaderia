@@ -90,3 +90,12 @@ footer {
   border: solid 2px #c36934;
   padding: 10px;
 }
+
+.info-text {
+  font-size: 20px;
+}
+
+.link-info {
+  color: #2196F3;
+  text-decoration: underline;
+}

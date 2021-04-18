@@ -8,6 +8,7 @@ Vue.component('contat-btn', {
           v-on="on"
           text
           dark
+          @click="openLink"
         >
           <i :class="data.icon"></i>
           <span>{{data.label}}</span>
@@ -17,5 +18,12 @@ Vue.component('contat-btn', {
     </v-tooltip>
   `,
 
-  props: ['data']
+  props: ['data'],
+
+  methods: {
+    openLink: function() {
+      console.log('llegue aqui', this.data.link);
+      window.open(this.data.link, '_blank');
+    }
+  }
 })
